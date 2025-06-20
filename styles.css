@@ -1,0 +1,103 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  width: 300px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  position: relative;
+}
+
+.card-header {
+  background: url('2811640.jpg') center/cover no-repeat;
+  height: 100px;
+}
+
+
+.profile-pic {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.profile-pic img {
+  width: 100%;
+  border-radius: 60%;
+  transition: transform 0.3s ease-out;
+}
+.profile-pic img:hover {
+  transform: scale(1.1);
+}
+
+.card-body {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.card-body h2 {
+  margin: 10px 0 5px;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.1; /* 👈 Ajusta interlineado */
+  letter-spacing: 0.5px; /* 👈 Ajusta espaciado entre letras (opcional) */
+  color: #354db6;
+   
+}
+
+
+
+
+
+.card-body h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #444;
+  font-weight: 600;
+}
+
+.card-body p {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 5;
+}
+
+.social-icons {
+  margin-top: 15px;
+   transition: transform 0.3s ease-out;
+}
+.social-icons :hover {
+  transform: scale(1.);
+}
+
+
+.social-icons a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: color 0.3s;
+  
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* LinkedIn blue, for example */
+}
